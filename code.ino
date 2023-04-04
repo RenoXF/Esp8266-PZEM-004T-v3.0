@@ -116,7 +116,6 @@ void loop() {
     lcd.print("Rp.");
     lcd.setCursor(4, 3);
     lcd.print(energy,3 * harga);
-    delay(5000);
 
     Blynk.virtualWrite(V10, voltage);
     Blynk.virtualWrite(V11, current);
